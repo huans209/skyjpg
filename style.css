@@ -1,0 +1,148 @@
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+body{
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.bgindex {
+  background: linear-gradient(to bottom,#fffec0, #fffef0);
+  position: absolute;
+  height: auto;
+  width: 100vw;
+}
+
+.bgreg {
+  background: linear-gradient(to bottom,#fffec0, #fffee0);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
+.h1{
+    position: relative;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 100%;
+    font-size: 200%;
+    font-weight: 400;
+    font-family: "Major Mono Display", monospace;
+    color: black;
+}
+.h2{
+  position: relative;
+  text-align: center;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  width: 100%;
+  font-size: 200%;
+  font-weight: 400;
+  font-family: "Major Mono Display", monospace;
+  color: black;
+}
+
+.polar{
+    position: relative;
+    display: inline-block;
+    left: 6.25%;
+    width: 25vw;
+    height: 25vw;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    transition: transform 375ms ease-in-out;
+}
+.polar:hover{
+    transform: scale(1.1);
+}
+.polar2{
+    position: relative;
+    display: inline-block;
+    left: 7.25%;
+    width: 25vw;
+    height: 25vw;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+.polar2:hover{
+  transform: scale(1.1);
+}
+.polar3{
+    position: relative;
+    display: inline-block;
+    left: 8.25%;
+    width: 25vw;
+    height: 25vw;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    transition: transform 375ms ease-in-out;
+}
+.polar3:hover{
+  transform: scale(1.1);
+}
+.polarmax{
+    position: relative;
+    display: inline-block;
+    left: 12.5%;
+    width: 37.5vw;
+    height: 37.5vw;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.img{
+    position: relative;
+    top: 8.33%;
+    left: 8.33%;
+}
+
+.imgm{
+  position: relative;
+  top: 4.166%;
+  left: 4.166%;
+}
+
+.datedot{
+    position: relative;
+    left: 92.1875%;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 100%;
+    background-color: black;
+}
+
+.dateline{
+    position: relative;
+    left: 92.1875%;
+    width: 1vw;
+    height: 7vw;
+    border-radius: 100% / 14.28%;
+    background-color: black;
+}
+
+.h5{
+    position: relative;
+    top: -5%;
+    right: -150%;
+    font-size: 100%;
+    font-weight: 400;
+    font-family: "Major Mono Display", monospace;
+    color: black;
+}
+
+.h6{
+    position: relative;
+    padding-top: 11%;
+    left: 8.33%;
+    line-height: 1.6;
+    font-size: 100%;
+    font-weight: 400;
+    font-family: "Architects Daughter", cursive;
+    color: black;
+}
