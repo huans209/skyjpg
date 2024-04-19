@@ -25,6 +25,16 @@ body::-webkit-scrollbar {
   width: 100vw;
 }
 
+@keyframes develop {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .bgp1{
   background-image: url("50photos/230520_1.jpg");
   background-color: #cccccc;
@@ -34,6 +44,7 @@ body::-webkit-scrollbar {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  animation: develop 4s ease-in-out;
 }
 .bgp2{
   background-image: url("50photos/230521_2.jpg");
@@ -44,6 +55,7 @@ body::-webkit-scrollbar {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  animation: develop 4s ease-in-out;
 }
 .bgp3{
   background-image: url("50photos/230527_3.jpg");
@@ -54,6 +66,7 @@ body::-webkit-scrollbar {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  animation: develop 4s ease-in-out;
 }
 .bgp4{
   background-image: url("50photos/230527_4.jpg");
@@ -64,6 +77,7 @@ body::-webkit-scrollbar {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  animation: develop 4s ease-in-out;
 }
 .bgp5{
   background-image: url("50photos/230527_5.jpg");
@@ -74,6 +88,7 @@ body::-webkit-scrollbar {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  animation: develop 4s ease-in-out;
 }
 .bgp6{
   background-image: url("50photos/230528_6.jpg");
@@ -84,6 +99,7 @@ body::-webkit-scrollbar {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  animation: develop 4s ease-in-out;
 }
 .bgp7{
   background-image: url("50photos/230531_7.jpg");
@@ -94,6 +110,7 @@ body::-webkit-scrollbar {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  animation: develop 4s ease-in-out;
 }
 .bgp8{
   background-image: url("50photos/230531_8.jpg");
@@ -104,6 +121,7 @@ body::-webkit-scrollbar {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  animation: develop 4s ease-in-out;
 }
 .bgp9{
   background-image: url("50photos/230610_9.jpg");
@@ -114,6 +132,326 @@ body::-webkit-scrollbar {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp10{
+  background-image: url("50photos/230815_10.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp11{
+  background-image: url("50photos/230815_11.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp12{
+  background-image: url("50photos/230815_12.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp13{
+  background-image: url("50photos/230816_13.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp14{
+  background-image: url("50photos/230816_14.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp15{
+  background-image: url("50photos/230817_15.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp16{
+  background-image: url("50photos/230817_16.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp17{
+  background-image: url("50photos/230914_17.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp18{
+  background-image: url("50photos/230914_18.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp19{
+  background-image: url("50photos/230914_19.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp20{
+  background-image: url("50photos/231104_20.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp21{
+  background-image: url("50photos/231104_21.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp22{
+  background-image: url("50photos/231104_22.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp23{
+  background-image: url("50photos/231105_23.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp24{
+  background-image: url("50photos/231111_24.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp25{
+  background-image: url("50photos/231123_25.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp26{
+  background-image: url("50photos/231124_26.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp27{
+  background-image: url("50photos/231124_27.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp28{
+  background-image: url("50photos/231125_28.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp29{
+  background-image: url("50photos/231125_29.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp30{
+  background-image: url("50photos/231130_30.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp43{
+  background-image: url("50photos/240116_43.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp44{
+  background-image: url("50photos/240310_44.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp45{
+  background-image: url("50photos/240312_45.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp46{
+  background-image: url("50photos/240312_46.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp47{
+  background-image: url("50photos/240313_47.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp48{
+  background-image: url("50photos/240314_48.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp49{
+  background-image: url("50photos/240314_49.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
+}
+.bgp50{
+  background-image: url("50photos/240317_50.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: develop 4s ease-in-out;
 }
 
 .h1{
@@ -126,6 +464,7 @@ body::-webkit-scrollbar {
     font-weight: 400;
     font-family: "Major Mono Display", monospace;
     color: black;
+    cursor: default;
 }
 .h2{
     position: relative;
@@ -137,6 +476,7 @@ body::-webkit-scrollbar {
     font-weight: 400;
     font-family: "Major Mono Display", monospace;
     color: black;
+    cursor: default;
 }
 
 .polar{
@@ -148,6 +488,7 @@ body::-webkit-scrollbar {
     border: none;
     background-color: rgb(255, 255, 255);
     transition: transform 375ms ease-in-out;
+    cursor: zoom-in;
 }
 .polar:hover{
     transform: scale(1.1);
@@ -160,9 +501,11 @@ body::-webkit-scrollbar {
     height: 25vw;
     border: none;
     background-color: rgb(255, 255, 255);
+    transition: transform 375ms ease-in-out;
+    cursor: zoom-in;
 }
 .polar2:hover{
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 .polar3{
     position: relative;
@@ -173,42 +516,17 @@ body::-webkit-scrollbar {
     border: none;
     background-color: rgb(255, 255, 255);
     transition: transform 375ms ease-in-out;
+    cursor: zoom-in;
 }
 .polar3:hover{
-  transform: scale(1.1);
-}
-.polarmax{
-    position: relative;
-    display: inline-block;
-    left: 12.5%;
-    width: 37.5vw;
-    height: 37.5vw;
-    border: none;
-    background-color: rgb(255, 255, 255);
+    transform: scale(1.1);
 }
 
 .img{
     position: relative;
     top: 8.33%;
     left: 8.33%;
-}
-
-.imgm{
-    position: relative;
-    top: 4.166%;
-    left: 4.166%;
-}
-
-.imgbg{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100vw;
-    height: auto;
-    background-color: #cccccc;
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    animation: develop 6s ease-in-out;
 }
 
 .datedot{
@@ -235,14 +553,15 @@ body::-webkit-scrollbar {
     left: 3%;
     line-height: 1.6;
     font-size: 100%;
-    font-weight: 400;
+    font-weight: 600;
     font-family: "Major Mono Display", monospace;
     color: rgb(201, 170, 33);
-    transition: color 0.75s ease-in-out
+    transition: color 0.5s ease-in-out
 }
 
 .h4:hover{
     color: white;
+    font-weight: 800;
 }
 
 .h5{
@@ -253,6 +572,7 @@ body::-webkit-scrollbar {
     font-weight: 800;
     font-family: "Major Mono Display", monospace;
     color: black;
+    cursor: default
 }
 
 .h6{
