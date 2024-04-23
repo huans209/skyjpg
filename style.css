@@ -34,6 +34,14 @@ body::-webkit-scrollbar {
     opacity: 1;
   }
 }
+@keyframes shift {
+  0%{
+    color:rgb(201, 170, 33);
+  }
+  100%{
+    color:white;
+  }
+}
 
 .bgp1{
   background-image: url("50photos/230520_1.jpg");
@@ -592,7 +600,7 @@ body::-webkit-scrollbar {
     padding-top: 4%;
     padding-bottom: 4%;
     width: 100%;
-    font-size: 200%;
+    font-size: 2vw;
     font-weight: 400;
     font-family: "Major Mono Display", monospace;
     color: black;
@@ -700,7 +708,7 @@ body::-webkit-scrollbar {
     position: relative;
     top: -5%;
     right: -150%;
-    font-size: 100%;
+    font-size: 1vw;
     font-weight: 800;
     font-family: "Major Mono Display", monospace;
     color: black;
@@ -712,8 +720,84 @@ body::-webkit-scrollbar {
     padding-top: 11%;
     left: 8.33%;
     line-height: 1.6;
-    font-size: 100%;
+    font-size: 1vw;
     font-weight: 400;
     font-family: "Architects Daughter", cursive;
     color: black;
+}
+
+@media screen and (max-width: 1024px) {
+  .h1{
+    padding-top: 6.25%;
+    padding-bottom: 6.25%;
+    text-align: left;
+    padding-left: 3.125%;
+    font-size: 2.7vw;
+    font-weight: 600;
+    font-family: "Major Mono Display", monospace;
+  }
+  .polar{
+    display: block;
+    left: 3.125%;
+    width: 75vw;
+    height: 75vw;
+  }
+  .polar2{
+    display: block;
+    left: 3.125%;
+    width: 75vw;
+    height: 75vw;
+  }
+  .polar3{
+    display: block;
+    left: 3.125%;
+    width: 75vw;
+    height: 75vw;
+  }
+  .datedot{
+    position: relative;
+    left: 87.5%;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 100%;
+    background-color: black;
+  }
+  .dateline{
+    position: relative;
+    left: 87.5%;
+    width: 2vw;
+    height: 14vw;
+    border-radius: 100% / 14.28%;
+    background-color: black;
+  }
+  .h4{
+    position: absolute;
+    bottom: 4%;
+    left: 3%;
+    line-height: 1.6;
+    font-size: 1.8vw;
+    font-weight: 800;
+    font-family: "Major Mono Display", monospace;
+    color: white;
+    animation: shift 4s ease-in-out;
+  }
+  .h5{
+    position: relative;
+    top: -5%;
+    right: -150%;
+    font-size: 2vw;
+    font-weight: 800;
+    font-family: "Major Mono Display", monospace;
+    color: black;
+  }
+  .h6{
+    position: relative;
+    padding-top: 11%;
+    left: 8.33%;
+    line-height: 1.6;
+    font-size: 3vw;
+    font-weight: 400;
+    font-family: "Architects Daughter", cursive;
+    color: black;
+  }
 }
